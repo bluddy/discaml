@@ -1,7 +1,8 @@
 (library
  (name test_sub2)
  (libraries
-  alcotest
-  proj.sub2
+  lwt
+  cohttp
+  discaml.discord
  )
- (synopsis "Tests for sub2"))
+ (synopsis "Tests for discord"))

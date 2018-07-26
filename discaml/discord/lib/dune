@@ -1,9 +1,10 @@
 (library
- (name proj_sub2)
- (public_name proj.sub2)
+ (name discaml_discord)
+ (public_name discaml.discord)
  (libraries
-  unix
-  str
-  proj.sub1
+  cohttp
+  lwt
+  websocket
+  yojson
  )
- (synopsis "This is a short description of the sub2 library."))
+ (synopsis "Library to interact with Discord"))

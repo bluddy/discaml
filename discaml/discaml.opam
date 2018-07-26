@@ -1,6 +1,6 @@
 opam-version: "1.2"
-maintainer: "YOUR EMAIL ADDRESS"
-authors: ["YOUR NAME"]
+maintainer: "yotambarnoy@gmail.com"
+authors: ["Yotam Barnoy"]
 homepage: "https://github.com/USERNAME/sample-application"
 bug-reports: "https://github.com/USERNAME/sample-application/issues"
 dev-repo: "https://github.com/USERNAME/sample-application.git"
@@ -14,5 +14,7 @@ build-test: ["dune" "runtest" "-p" name]
 
 depends: [
   "dune" {build}
-  "alcotest" {test}
+  "lwt"
+  "cohttp"
+  "websocket"
 ]
